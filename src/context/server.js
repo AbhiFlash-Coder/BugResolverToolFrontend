@@ -1,9 +1,9 @@
-// const developmentMode = "production";
-const developmentMode = "development";
+const developmentMode = "production";
+//const developmentMode = "development";
 
 const baseUrlsObject = {
   development: "http://localhost:8000",
-  production: "https:somthingurl",
+  production: "https://bug-resolver-tool-backend.vercel.app",
 };
 
 export const baseUrl = baseUrlsObject[developmentMode];
