@@ -167,7 +167,7 @@ const MyProfile = ({ user }) => {
 
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="address" value="Your Address" />
+                <Label htmlFor="address" value="Employee ID" />
               </div>
               <TextInput
                 id="address"
