@@ -172,7 +172,7 @@ const MyProfile = ({ user }) => {
               <TextInput
                 id="address"
                 type="text"
-                placeholder="your address"
+                placeholder="Your Employee ID"
                 value={details.address}
                 name="address"
                 onChange={handleOnChangeFunction}
